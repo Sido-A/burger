@@ -16,6 +16,14 @@ function App() {
         <Header />
 
         <Switch>
+          <Route path="/greeting">
+            <Header />
+            <Footer />
+          </Route>
+          <Route path="/checkout">
+            <Header />
+            <Footer />
+          </Route>
           <Route path="/recipes">
             <Recipes />
             <Footer />

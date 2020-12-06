@@ -1,5 +1,9 @@
 import React from "react";
 import "../css/Footer.css";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 
 function Footer() {
   return (
@@ -52,7 +56,28 @@ function Footer() {
 
         <div className="footer__options">
           <h3>Follow us</h3>
-          <i></i>
+          <ul className="footer__iconList">
+            <li>
+              <i className="icon">
+                <TwitterIcon />
+              </i>
+            </li>
+            <li>
+              <i className="icon">
+                <FacebookIcon />
+              </i>
+            </li>
+            <li>
+              <i className="icon">
+                <InstagramIcon />
+              </i>
+            </li>
+            <li>
+              <i className="icon">
+                <WhatsAppIcon />
+              </i>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

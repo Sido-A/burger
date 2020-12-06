@@ -1,0 +1,50 @@
+.footer {
+  position: relative;
+  height: 50vh;
+}
+
+.footer::after {
+  content: "";
+  display: block;
+  background: url("../img/footer-img.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.footer__container {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1480px;
+  margin: 0 auto;
+  padding-top: 10em;
+}
+
+.footer__options h3 {
+  margin: 0;
+  padding: 0;
+  color: #ffc700;
+}
+
+.footer__options > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__options > ul li {
+  padding: 0.5em 0;
+}
+
+.footer__options > ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__iconList {
+  display: flex;
+}

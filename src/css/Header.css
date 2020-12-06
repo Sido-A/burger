@@ -1,5 +1,7 @@
 .header {
+  margin-bottom: -70px;
   background-color: transparent;
+  position: relative;
   z-index: 10;
 }
 .header__container {
@@ -20,10 +22,32 @@
 .link {
   color: #fff;
   text-decoration: none;
+  position: relative;
+  margin: 0 1em;
+}
+.link:hover {
+  color: #ffc700;
+  transition: all 0.7s;
 }
 
-.header__nav span {
-  padding: 0 1em;
+.link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 1px solid #ffc700;
+  width: 60%;
+  padding-top: 0.5em;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.link:hover::after {
+  transform: scaleX(1);
+}
+
+.link > span::after {
+  display: block;
+  transform-origin: 0% 50%;
 }
 
 .header__cart {
