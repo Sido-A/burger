@@ -1,0 +1,19 @@
+.main__info {
+  width: 100%;
+  display: flex;
+}
+
+.main__infoDetails {
+  width: 50%;
+}
+
+.main__infoImg {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.main__infoImg img {
+  vertical-align: top;
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+.header {
+  background-color: transparent;
+  z-index: 10;
+}
+.header__container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__nav span {
+  padding: 0 1em;
+}
+
+.header__cart {
+  margin: 1em;
+}
+
+.cart {
+  margin-left: 30px;
+  color: #ffc700;
+}

@@ -1,0 +1,35 @@
+.top {
+  position: relative;
+  height: 80vh;
+}
+
+.top::after {
+  content: "";
+  display: block;
+  background: url("../img/top-img.png") no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
+  height: 100%;
+  margin-top: -70px;
+  position: absolute;
+  z-index: -1;
+}
+
+.top__container {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000000;
+}
+
+.top__title {
+}
+
+.top__container > h1 {
+  margin: 0;
+  padding: 0;
+}
