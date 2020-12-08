@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Top from "./components/Top";
 import Main from "./components/Main";
-import Menu from "./components/Menu";
+import Burgers from "./components/Burgers";
 import Recipes from "./components/Recipes";
 import Bottom from "./components/Bottom";
 import Footer from "./components/Footer";
@@ -24,13 +24,14 @@ function App() {
             <Header />
             <Footer />
           </Route>
-          <Route path="/recipes">
+          <Route path="/recipe">
             <Recipes />
+            <Bottom />
             <Footer />
           </Route>
           <Route path="/menu">
             <Top />
-            <Menu />
+            <Burgers />
             <Footer />
           </Route>
 
