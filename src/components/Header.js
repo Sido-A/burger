@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "../css/Header.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { burgersContext } from "../Context";
 
@@ -12,24 +12,21 @@ function Header() {
     <header className="header">
       <div className="header__container">
         <div className="header__nav">
-          <Link className="link" to="/">
+          <NavLink className="link" exact to="/">
             <span>home</span>
-          </Link>
-          <Link className="link" to="/menu">
+          </NavLink>
+          <NavLink className="link" to="/menu">
             <span>on the menu</span>
-          </Link>
-          {/* <Link className="link" to="/recipes">
-            <span>recipes</span>
-          </Link> */}
-          <Link className="link" to="/wines">
+          </NavLink>
+          <NavLink className="link" to="/wines">
             <span>wines</span>
-          </Link>
-          <Link className="link" to="/gifts">
+          </NavLink>
+          <NavLink className="link" to="/gifts">
             <span>gifts</span>
-          </Link>
-          <Link className="link" to="/market">
+          </NavLink>
+          <NavLink className="link" to="/market">
             <span>market</span>
-          </Link>
+          </NavLink>
         </div>
         <div className="header__cart">
           <Link className="cart" to="/checkout">
