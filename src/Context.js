@@ -2,6 +2,7 @@ import React, { useReducer, createContext } from "react";
 import { useHistory } from "react-router-dom";
 
 const initialState = {
+  user: [],
   burger: [],
   basket: [],
 };
@@ -18,10 +19,15 @@ const reducer = (state, action) => {
       };
 
     case "ADD_TO_BASKET":
-      console.log(action.payload);
       return {
         ...state,
         basket: [...state.basket, action.payload],
+      };
+    case "ADD_USER":
+      console.log(action.payload);
+      return {
+        ...state,
+        user: [...state.user, action.payload],
       };
 
     default:
