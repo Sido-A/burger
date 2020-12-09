@@ -1,13 +1,3 @@
-/* .basketPreview {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1480px;
-  height: 100%;
-  width: 100%;
-  background-color: #ffc700;
-} */
-
 .basketPreview {
   color: #ffc700;
   display: flex;
@@ -18,6 +8,9 @@
   height: 591px;
   margin: 0 auto;
   background-color: #000;
+}
+.basketPreview__noItem {
+  text-align: center;
 }
 
 .basketPreview__container {

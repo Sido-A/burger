@@ -1,0 +1,25 @@
+.orderCompleted {
+  vertical-align: top;
+  margin-bottom: 5.47625em;
+}
+
+.orderCompleted > figure {
+  position: relative;
+}
+
+.orderCompleted > figure > img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.orderCompleted > p {
+  color: #fff;
+  width: 490px;
+  margin: 0 auto;
+  font-size: 4.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
