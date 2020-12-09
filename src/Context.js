@@ -24,10 +24,11 @@ const reducer = (state, action) => {
         basket: [...state.basket, action.payload],
       };
     case "ADD_USER":
-      console.log(action.payload);
       return {
         ...state,
         user: [...state.user, action.payload],
+        burger: [],
+        basket: [],
       };
 
     default:

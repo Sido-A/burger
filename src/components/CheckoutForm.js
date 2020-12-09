@@ -6,6 +6,7 @@ import { burgersContext } from "../Context";
 function CheckoutForm() {
   const { state, dispatch } = useContext(burgersContext);
   const [input, setInput] = useState({});
+  const [disabled, setDisabled] = useState(true);
   const history = useHistory();
 
   const changeHandler = (e) => {
@@ -17,7 +18,7 @@ function CheckoutForm() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (input !== "") {
+    if (input !== "" && state.basket.length !== 0) {
       dispatch({
         type: "ADD_USER",
         payload: input,
@@ -26,11 +27,10 @@ function CheckoutForm() {
     }
   };
 
-  console.log(input);
   return (
     <form className="checkoutForm" onSubmit={submitHandler}>
       <p className="checkoutForm__title">Your details</p>
-      <select name="genderTitle" onChange={changeHandler}>
+      <select name="genderTitle" onChange={changeHandler} required>
         <option value="Title" selected disabled hidden>
           Title*
         </option>

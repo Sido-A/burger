@@ -3,6 +3,12 @@
   height: 70vh;
 }
 
+.bottom > figure {
+  position: absolute;
+  top: -10%;
+  left: 18%;
+}
+
 .bottom::before {
   content: "";
   display: block;
@@ -31,4 +37,7 @@
 .bottom__container > h1 {
   color: #ffc700;
   align-items: center;
+  font-size: 4.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
