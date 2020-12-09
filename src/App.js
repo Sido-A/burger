@@ -7,6 +7,7 @@ import Top from "./components/Top";
 import Main from "./components/Main";
 import Burgers from "./components/Burgers";
 import Checkout from "./components/Checkout";
+import OrderCompleted from "./components/OrderCompleted";
 import Recipes from "./components/Recipes";
 import Bottom from "./components/Bottom";
 import Footer from "./components/Footer";
@@ -16,8 +17,9 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/greeting">
+          <Route path="/orderComplete">
             <LowHeader />
+            <OrderCompleted />
             <Footer />
           </Route>
           <Route path="/checkout">
