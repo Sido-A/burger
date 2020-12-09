@@ -6,7 +6,8 @@
       "restaurant": "Honest Burgers",
       "img":"../img/honest-burger.png",
       "cookingTime": "55mins",
-
+      "calories": 840,
+      "servings": 2,
       "web": "www.honestburgers.co.uk",
       "description": "A mouth-watering honest beef burger",
       "ingredients": [
@@ -34,7 +35,8 @@
       "name": "Pulled Mooshie",
       "restaurant": "Mooshies",
       "cookingTime": "55mins",
-
+      "calories": 1040,
+      "servings": 2,
       "web": "www.veganburger.org",
       "description": "Spicy vegan burger with jackfruit",
       "ingredients": ["jackfruit", "coleslaw", "gluten free bun"],
@@ -54,7 +56,8 @@
       "name": "Krabby Patty",
       "restaurant": "Krusty Krab",
       "cookingTime": "55mins",
-
+      "calories": 960,
+      "servings": 2,
       "web": "https://twitter.com/SpongeBob",
       "description": "The only people who don't like a Krabby Patty have never tasted one.",
       "ingredients": [
@@ -85,7 +88,8 @@
       "name": "The Good Burger",
       "restaurant": "Good Burger",
       "cookingTime": "55mins",
-
+      "calories": 1400,
+      "servings": 2,
       "web": "https://en.wikipedia.org/wiki/Good_Burger",
       "description": "Welcome to Good Burger, home of the Good Burger, can I take your order?",
       "ingredients": [
@@ -102,7 +106,7 @@
           "number": "000",
           "line1": "Good Burger",
           "line2": "437 Glendora Ave.",
-          "postcode": "CA",
+          "postcode":       "CA",
           "country": "United States"
         }
       ]
@@ -112,7 +116,8 @@
       "name": "Crunchy Nacho Burger",
       "restaurant": "Max Burgers",
       "cookingTime": "55mins",
-
+      "calories": 2000,
+      "servings": 2,
       "web": "https://www.max.se/maten/meny/burgare/crunchy-nacho-burger/",
       "description": "The best combination of crunchiness and softness, all in one single burger",
       "ingredients": [
@@ -142,7 +147,8 @@
       "name": "Barbie Burger",
       "restaurant": "Flower Burger",
       "cookingTime": "55mins",
-
+      "calories": 670,
+      "servings": 2,
       "web": "https://www.flowerburger.it/",
       "description": "From a pink explosion was born Barbie Burger, a special edition in partnership with Mattel",
       "ingredients": [
@@ -169,7 +175,8 @@
       "name": "Curry On My Wayward Bun",
       "restaurant": "Bob's Burgers",
       "cookingTime": "55mins",
-
+      "calories": 930,
+      "servings": 2,
       "web": "https://bobs-burgers.fandom.com/wiki/Burger_of_the_Day",
       "description": "N/A",
       "ingredients": ["beef", "curry", "bun"],
@@ -189,7 +196,8 @@
       "name": "MEISTER ALLER KLASSEN",
       "restaurant": "Burgermeister",
       "cookingTime": "55mins",
-
+      "calories": 780,
+      "servings": 2,
       "web": "https://burger-meister.de",
       "description": "Fast food joint located in a public toilet? Why on earth?!",
       "ingredients": [
@@ -223,7 +231,8 @@
       "name": "Vegetarian Burger (Indian Style)",
       "restaurant": "Indian Burgers",
       "cookingTime": "55mins",
-
+      "calories": 800,
+      "servings": 2,
       "web": "https://www.cookwithmanali.com/vegetarian-burger-indian-style/",
       "description": "With summer around the corner, I had to share a vegetarian burger recipe with you guys. Actually I plan to share more in the next month but I thought I will start with this Indian style Vegetarian Burger aka Masala Burger!",
       "ingredients": [
@@ -250,7 +259,8 @@
       "name": "Fat Santa",
       "restaurant": "Sky City Hamilton",
       "cookingTime": "55mins",
-
+      "calories": 730,
+      "servings": 2,
       "web": "https://skycityhamilton.co.nz/eat-drink/eat-burger/",
       "description": "A Christmas themed burger",
       "ingredients": [
@@ -278,7 +288,8 @@
       "name": "Blondie",
       "restaurant": "Yankys",
       "cookingTime": "55mins",
-
+      "calories": 1000,
+      "servings": 2,
       "web": "http://yankyslambton.co.za/menu/",
       "description": "Delicious steak burger",
       "ingredients": [
@@ -308,7 +319,8 @@
       "name": "Monster Burger",
       "restaurant": "Yankys",
       "cookingTime": "55mins",
-
+      "calories": 1190,
+      "servings": 2,
       "web": "http://yankyslambton.co.za/menu/",
       "description": "Massive meaty burger - the size of a dinner plate",
       "ingredients": [
@@ -339,7 +351,8 @@
       "name": "Buffalo chicken burger",
       "restaurant": "Meat Mission",
       "cookingTime": "55mins",
-
+      "calories": 999,
+      "servings": 2,
       "web": "http://meatliquor.com/",
       "description": "Large, messy, super tasty buffalo chicken burger",
       "ingredients": [
@@ -365,7 +378,8 @@
       "name": "Cheatday Burger",
       "restaurant": "Burgeramt",
       "cookingTime": "55mins",
-
+      "calories": 698,
+      "servings": 2,
       "web": "https://www.burgeramt.com/",
       "description": "Perfect when you need a day off from your workout routine",
       "ingredients": [

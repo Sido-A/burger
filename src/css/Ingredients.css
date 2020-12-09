@@ -1,0 +1,41 @@
+.ingredients {
+  background: url("../img/ingredients-img.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-sizing: border-box;
+}
+
+.ingredients__container {
+  width: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 5em 2em;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.ingredients__title {
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  padding-left: 3em;
+}
+
+.ingredients__title > .yellow {
+  background-color: #ffc700;
+  width: 170px;
+  padding: 0.5em 0.3em;
+}
+
+.ingredients__ingredient {
+  padding: 1.5em 3em;
+}
+
+.ingredients__ingredient dl dd {
+  margin: 0;
+  text-transform: capitalize;
+}

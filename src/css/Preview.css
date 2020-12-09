@@ -1,0 +1,66 @@
+.preview {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 5rem 0;
+}
+
+.preview__left {
+  max-width: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+}
+.preview__name {
+  color: #fff;
+  background: #ffc700;
+  width: 183px;
+  padding: 0.6em;
+  font-size: 1.5rem;
+}
+.preview__cookingTime {
+  display: flex;
+  color: #ffc700;
+  align-items: center;
+  margin-top: 0;
+}
+
+.preview__servingAndCalory {
+  display: flex;
+}
+
+.preview__servingAndCalory > p {
+  margin-top: 0;
+  margin-right: 1em;
+}
+
+.preview__servingAndCalory:last-child {
+  margin-right: 0;
+}
+
+.addToBasket {
+  display: block;
+  padding: 1em 2.5em;
+  border: 2px solid #ffc700;
+  background: #ffc700;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 183px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 5em;
+  font-weight: 700;
+}
+
+.preview__right {
+  vertical-align: bottom;
+}
+
+.preview__right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

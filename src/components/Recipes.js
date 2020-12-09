@@ -1,16 +1,22 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "../css/Recipes.css";
 import { burgersContext } from "../Context";
+import Ingredients from "./Ingredients";
+import Preview from "./Preview";
 
 function Recipes() {
   const { state, dispatch } = useContext(burgersContext);
-  const { burger } = state;
-  console.log(burger[0].id);
-  const item = burger[0];
+  const [item, setItem] = useState([]);
+
+  useEffect(() => {
+    const { burger } = state;
+    setItem(burger[0]);
+  }, []);
+  
   return (
     <div className="recipe">
-      <div className="recipe__header"></div>
-      <div>{item.id}</div>
+      <Preview burgerDetails={item} />
+      <Ingredients ingredients={item.ingredients} />
     </div>
   );
 }

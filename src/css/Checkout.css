@@ -1,0 +1,13 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8.5625em;
+}
+
+.checkout__left {
+  width: 40%;
+}
+
+.checkout__right {
+  width: 60%;
+}

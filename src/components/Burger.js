@@ -9,6 +9,7 @@ function Burger({ id, img, name, description, cookingTime, burger }) {
   const { state, dispatch } = useContext(burgersContext);
 
   const showRecipe = () => {
+    console.log(burger);
     dispatch({
       type: "BURGER_RECIPE",
       payload: burger,

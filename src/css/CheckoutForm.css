@@ -1,0 +1,58 @@
+.checkoutForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 1480px;
+  padding: 0 1.5em;
+  margin: 0 auto;
+}
+
+.checkoutForm__title {
+  font-size: 1.125rem;
+  color: #ffc700;
+  font-weight: 600;
+}
+
+.checkoutForm > select {
+  width: 95px;
+  height: 37px;
+  background-color: #ffc700;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+  padding: 0.5em;
+}
+
+.checkoutForm__firstName {
+  margin-right: 1.25em;
+}
+
+input {
+  padding: 0.3125em 0.5625em;
+  font-size: 1.125rem;
+  border-radius: 4px;
+  margin-bottom: 1.375em;
+  outline: none;
+  border-style: solid;
+}
+
+label {
+  color: #ffc700;
+  font-size: 1.125rem;
+  margin-bottom: 1.75em;
+  font-weight: 600;
+}
+
+.postcode {
+  margin-bottom: 3.4375em;
+}
+
+.checkoutForm__submit {
+  background-color: #ffc700;
+  text-transform: uppercase;
+  width: 173px;
+  outline: none;
+  border: #ffc700;
+  cursor: pointer;
+}
