@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "../css/Header.css";
 import { Link, NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import MenuIcon from "@material-ui/icons/Menu";
 import { burgersContext } from "../Context";
 
 function Header() {
@@ -11,6 +12,10 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container">
+        <input class="switcher" type="checkbox" id="menu" />
+        <label class="open" for="menu">
+          <MenuIcon fontSize="large" />
+        </label>
         <div className="header__nav">
           <NavLink className="link" exact to="/">
             <span>home</span>
@@ -27,6 +32,10 @@ function Header() {
           <NavLink className="link" to="/market">
             <span>market</span>
           </NavLink>
+
+          <label class="close" for="menu">
+            x
+          </label>
         </div>
         <div className="header__cart">
           <Link className="cart" to="/checkout">

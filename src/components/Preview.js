@@ -27,7 +27,9 @@ function Preview({ burgerDetails }) {
           <p>{servings} Serving</p>
           <p>{calories} cals/serving</p>
         </div>
-        <div className="preview__description">{description}</div>
+        <div className="preview__description">
+          <p>{description}</p>
+        </div>
         <button className="addToBasket" onClick={addItem}>
           add to basket
         </button>

@@ -65,3 +65,38 @@
   height: auto;
   object-fit: cover;
 }
+
+@media screen and (max-width: 375px) {
+  .preview {
+    margin: 1em;
+  }
+  .preview__left {
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+  .preview__name {
+    font-size: 0.8rem;
+    display: inline;
+    width: 80%;
+  }
+
+  .preview__cookingTime {
+    font-size: 14px;
+  }
+  .preview__servingAndCalory {
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .preview__description {
+    position: relative;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .preview__right {
+    width: 100%;
+  }
+
+
+}

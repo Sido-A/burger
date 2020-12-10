@@ -56,3 +56,13 @@ label {
   border: #ffc700;
   cursor: pointer;
 }
+
+@media screen and (max-width: 375px) {
+  .checkoutForm > select {
+    padding: 0 0.3em;
+  }
+
+  .postcode {
+    width: 210px;
+  }
+}

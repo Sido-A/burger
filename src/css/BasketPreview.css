@@ -6,6 +6,7 @@
   width: 100%;
   max-width: 805px;
   height: 591px;
+  min-height: 591px;
   margin: 0 auto;
   background-color: #000;
 }
@@ -115,4 +116,28 @@
   text-transform: uppercase;
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+  .basketPreview {
+    height: 100%;
+  }
+  .basketPreview__container {
+    color: #fff;
+  }
+  .basketPreview__header {
+    display: none;
+  }
+  .basketPreview__main {
+    border-top: 1px solid #c0c0c0;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    flex-direction: column-reverse;
+  }
+  .basketPreview__description {
+    margin-bottom: 1.3em;
+  }
+  .delete {
+    top: 0;
+  }
 }

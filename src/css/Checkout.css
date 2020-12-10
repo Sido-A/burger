@@ -11,3 +11,17 @@
 .checkout__right {
   width: 60%;
 }
+
+@media screen and (max-width: 375px) {
+  .checkout {
+    flex-direction: column-reverse;
+  }
+
+  .checkout__left {
+    width: 100%;
+  }
+
+  .checkout__right {
+    width: 100%;
+  }
+}

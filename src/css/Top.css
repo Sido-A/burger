@@ -33,3 +33,13 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 375px) {
+  .top::after {
+    filter: brightness(30%);
+    background-position: left center;
+  }
+  .top__title {
+    font-size: 1.5rem;
+  }
+}
