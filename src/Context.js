@@ -31,6 +31,13 @@ const reducer = (state, action) => {
         basket: [],
       };
 
+    case "DELETE_ITEM":
+      return {
+        ...state,
+        burger: [],
+        basket: [],
+      };
+
     default:
       return state;
   }

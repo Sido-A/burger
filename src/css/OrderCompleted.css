@@ -23,3 +23,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 376px) {
+  .orderCompleted {
+    margin-bottom: 0;
+  }
+
+  .orderCompleted > figure {
+    height: 100%;
+    width: 100%;
+  }
+  .orderCompleted > figure > img {
+    height: 300px;
+    object-fit: cover;
+    margin-top: -1.2em;
+    margin-bottom: -1em;
+  }
+  .orderCompleted > p {
+    width: 90%;
+    font-size: 3rem;
+    line-height: 0.9;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+
+  }
+}

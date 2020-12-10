@@ -8,6 +8,7 @@
       "cookingTime": "55mins",
       "calories": 840,
       "servings": 2,
+      "price":15,
       "web": "www.honestburgers.co.uk",
       "description": "A mouth-watering honest beef burger",
       "ingredients": [
@@ -37,6 +38,7 @@
       "cookingTime": "55mins",
       "calories": 1040,
       "servings": 2,
+      "price":16,
       "web": "www.veganburger.org",
       "description": "Spicy vegan burger with jackfruit",
       "ingredients": ["jackfruit", "coleslaw", "gluten free bun"],
@@ -58,6 +60,7 @@
       "cookingTime": "55mins",
       "calories": 960,
       "servings": 2,
+      "price":17,
       "web": "https://twitter.com/SpongeBob",
       "description": "The only people who don't like a Krabby Patty have never tasted one.",
       "ingredients": [
@@ -90,6 +93,7 @@
       "cookingTime": "55mins",
       "calories": 1400,
       "servings": 2,
+      "price":18,
       "web": "https://en.wikipedia.org/wiki/Good_Burger",
       "description": "Welcome to Good Burger, home of the Good Burger, can I take your order?",
       "ingredients": [
@@ -118,6 +122,7 @@
       "cookingTime": "55mins",
       "calories": 2000,
       "servings": 2,
+      "price":19,
       "web": "https://www.max.se/maten/meny/burgare/crunchy-nacho-burger/",
       "description": "The best combination of crunchiness and softness, all in one single burger",
       "ingredients": [
@@ -149,6 +154,7 @@
       "cookingTime": "55mins",
       "calories": 670,
       "servings": 2,
+      "price":20,
       "web": "https://www.flowerburger.it/",
       "description": "From a pink explosion was born Barbie Burger, a special edition in partnership with Mattel",
       "ingredients": [
@@ -177,6 +183,7 @@
       "cookingTime": "55mins",
       "calories": 930,
       "servings": 2,
+      "price":21,
       "web": "https://bobs-burgers.fandom.com/wiki/Burger_of_the_Day",
       "description": "N/A",
       "ingredients": ["beef", "curry", "bun"],
@@ -198,6 +205,7 @@
       "cookingTime": "55mins",
       "calories": 780,
       "servings": 2,
+      "price":22,
       "web": "https://burger-meister.de",
       "description": "Fast food joint located in a public toilet? Why on earth?!",
       "ingredients": [
@@ -233,6 +241,7 @@
       "cookingTime": "55mins",
       "calories": 800,
       "servings": 2,
+      "price":23,
       "web": "https://www.cookwithmanali.com/vegetarian-burger-indian-style/",
       "description": "With summer around the corner, I had to share a vegetarian burger recipe with you guys. Actually I plan to share more in the next month but I thought I will start with this Indian style Vegetarian Burger aka Masala Burger!",
       "ingredients": [
@@ -261,6 +270,7 @@
       "cookingTime": "55mins",
       "calories": 730,
       "servings": 2,
+      "price":24,
       "web": "https://skycityhamilton.co.nz/eat-drink/eat-burger/",
       "description": "A Christmas themed burger",
       "ingredients": [
@@ -290,6 +300,7 @@
       "cookingTime": "55mins",
       "calories": 1000,
       "servings": 2,
+      "price":25,
       "web": "http://yankyslambton.co.za/menu/",
       "description": "Delicious steak burger",
       "ingredients": [
@@ -321,6 +332,7 @@
       "cookingTime": "55mins",
       "calories": 1190,
       "servings": 2,
+      "price":26,
       "web": "http://yankyslambton.co.za/menu/",
       "description": "Massive meaty burger - the size of a dinner plate",
       "ingredients": [
@@ -353,6 +365,7 @@
       "cookingTime": "55mins",
       "calories": 999,
       "servings": 2,
+      "price":27,
       "web": "http://meatliquor.com/",
       "description": "Large, messy, super tasty buffalo chicken burger",
       "ingredients": [
@@ -380,6 +393,7 @@
       "cookingTime": "55mins",
       "calories": 698,
       "servings": 2,
+      "price":28,
       "web": "https://www.burgeramt.com/",
       "description": "Perfect when you need a day off from your workout routine",
       "ingredients": [
