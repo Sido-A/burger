@@ -1,4 +1,4 @@
-#Burger shop mock site
+# `Burger shop mock site`
 
 This site is not hoted.
 Database using local json file.
